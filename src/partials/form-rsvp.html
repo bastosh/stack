@@ -1,0 +1,45 @@
+<section class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-5">
+                <form class="form-email row" data-success="Thanks for your RSVP!" data-error="Please fill all fields correctly.">
+                    <div class="col-md-6 text-left text-center-xs">
+                        <div class="input-radio checked">
+                            <span>Can't Wait</span>
+                            <input checked="checked" type="radio" name="rsvp" value="Attending" class="validate-required" />
+                            <label></label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right text-center-xs">
+                        <div class="input-radio">
+                            <span>Can't Come</span>
+                            <input type="radio" name="rsvp" value="Not Attending" class="validate-required" />
+                            <label></label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" name="name" placeholder="Your Name / Names" class="validate-required" />
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" name="song" placeholder="Any song requests?" />
+                    </div>
+                    <div class="col-md-12">
+                        <div class="input-select">
+                            <select name="meal" class="validate-required">
+                                <option selected="" value="">Select a meal option</option>
+                                <option value="Chicken">Chicken</option>
+                                <option value="Beef">Beef</option>
+                                <option value="Vegetarian">Vegetarian</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn--primary type--uppercase">Send RSVP</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
